@@ -1,1 +1,1 @@
-web: php -S $PORT
+web: php -S localhost:$PORT

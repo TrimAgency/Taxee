@@ -2,5 +2,10 @@
     "require": {
         "slim/slim": "2.*",
         "psy/psysh": "@stable"
+    },
+    "extra": {
+        "heroku": {
+            "index-document": "index.php"
+        }
     }
 }
